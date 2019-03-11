@@ -1,2 +1,3 @@
 display:inline-block的使用，可以减少浮动的使用。
 下拉菜单中 上下两部分无缝连接 上下都要用定位 position：absolute  z-index
+在text文本框里输入文本长度 maxlength
