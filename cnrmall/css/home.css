@@ -443,7 +443,9 @@ a {
 .top-live {
   width: 1210px;
   height: 80px;
-  margin: 0 auto; }
+  position: relative;
+  margin: 0 auto;
+  /******选项卡部分*******/ }
   .top-live .top-live-right {
     width: 167px;
     height: 79px;
@@ -536,6 +538,50 @@ a {
       line-height: 22px;
       box-shadow: 1px 1px 2px #e3d5d5;
       font-size: 12px; }
+  .top-live .category {
+    width: 180px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: pink; }
+    .top-live .category .menu {
+      position: relative;
+      z-index: 2;
+      width: 180px;
+      padding: 16px 0;
+      min-height: 442px;
+      background: #6e6568;
+      color: #fff; }
+      .top-live .category .menu .cate-menu-item {
+        overflow: hidden;
+        padding-left: 12px;
+        height: 34px;
+        line-height: 34px; }
+        .top-live .category .menu .cate-menu-item .cate-menu-line {
+          font-size: 12px;
+          padding: 0 2px; }
+        .top-live .category .menu .cate-menu-item .cate-menu-lk {
+          font-size: 14px;
+          color: #fff; }
+      .top-live .category .menu .cate-part {
+        font-size: 12px;
+        position: absolute;
+        left: 180px;
+        top: 0;
+        width: 998px;
+        min-height: 419px;
+        border: 1px solid #f7f7f7;
+        background-color: #f7f7f7;
+        box-shadow: 1px 4px 0 rgba(0, 0, 0, 0.05); }
+        .top-live .category .menu .cate-part .cate-part-col1 {
+          float: left;
+          width: 740px;
+          padding: 20px 0 10px; }
+          .top-live .category .menu .cate-part .cate-part-col1 .cate-detail-tit a {
+            font-size: 12px;
+            color: #666;
+            font-weight: 700; }
 
 @keyframes imgMove {
   0% {

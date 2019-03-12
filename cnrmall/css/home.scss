@@ -548,7 +548,7 @@ a {
 .top-live{
     width: 1210px;
     height: 80px;
-
+    position: relative;
     margin:0 auto;
     .top-live-right{
         width: 167px;
@@ -660,6 +660,100 @@ a {
             font-size: 12px;
         }
     }
+    
+/******选项卡部分*******/  
+    .category{
+        width: 180px;
+        height: 480px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: pink;
+        .menu{
+            position: relative;
+            z-index: 2;
+            width: 180px;
+            padding: 16px 0;
+            min-height: 442px;
+            background: rgb(110,101,104);
+            color: #fff;
+            .cate-menu-item{
+                overflow: hidden;
+                padding-left: 12px;
+                height: 34px;
+                line-height: 34px;
+                .cate-menu-line{
+                    font-size: 12px;
+                    padding: 0 2px;
+                }
+                .cate-menu-lk{
+                    font-size: 14px;
+                    color:#fff;
+                }
+            }
+            
+           .cate-part{
+               font-size: 12px;
+               position: absolute;
+               left: 180px;
+               top: 0;
+               width: 998px;
+               min-height: 419px;
+               border: 1px solid #f7f7f7;
+               background-color: #f7f7f7;
+               box-shadow: 1px 4px 0 rgba(0,0,0,0.1);
+               .cate-part-coll{
+                   float: left;
+                   width: 740px;
+                   padding: 20px 0 10px;
+                   .cate-detail-tit{
+                       a{
+                           font-size: 12px;
+                           color:#666;
+                           font-weight: 700;
+                       }
+                       i{
+                           font-size: 14px;
+                           
+                       }
+                   }
+                   .cate-detail-con{
+                       float: left;
+                       padding: 6px 0;
+                       a{
+                           float: left;
+                           height: 16px;
+                           margin: 4px 0;
+                           padding: 0 10px;
+                           border-left: 1px solid #e0e0e0;
+                           line-height: 16px;
+                           color: #333;
+                       }
+                   }
+               }
+               
+               .sub-class-right{
+                   width: 240px;
+                   height: 439px;
+                   float: left;
+                   border-left: 1px solid #e6e6e6;
+                   a{
+                       background: #fff;
+                       display: block;
+                       width: 240px;
+                       height: 146px;
+                       border-top: 1px solid #e6e6e6;
+                       img{
+                           display: block;
+                           width: 240px;
+                           height: 146px;
+                       }
+                   }
+               }
+           }
+        }
+    }
+    
 } 
 @keyframes imgMove{
     0%{right: 0;top:0;width:90px;height:60px}
